@@ -8,25 +8,84 @@ mn = (100% / 750)
 // Block
 // Element
 // Modifier
-  .top
-    width 800px
-    margin 0 auto
-    padding-top 20px
+
+.clearfix
+  &:after
+    content ' '
+    display  block
+    clear both
+
+.wrapper
+  width 1180px
+  padding 0 50px
+  margin 0 auto
+
+.top
+  padding-top 20px
 
 
-  .first
-    float right
-    font-size 25px
-    padding-right 60px
-    padding-top 20px
+.first
+  float right
+  font-size 25px
+  padding-top 30px
 
-  .ttl
-    font-weight bold
-    font-family "Sawarabi Mincho"
+.ttl
+  font-weight bold
+  font-family "Sawarabi Mincho"
 
-  .second
-    padding-left 80px
-    font-size 16px
-    font-family "Sawarabi Mincho"
+.second
+  font-size 16px
+  font-family "Sawarabi Mincho"
+
+// .main
+
+.center-img
+  height 600px
+  margin 0 auto
+
+  background-image url(/assets/images/center_img.jpg)
+  background-repeat no-repeat
+  background-size cover
+  background-position center center
+
+
+.comment1
+  font-size 12px
+  font-family "Sawarabi Mincho"
+
+.option
+  float left
+  position relative
+  width 400px
+
+.under-img
+  width 320px
+  float left
+
+.with-img
+  position absolute
+  width 200px
+  left 240px
+
+.comment2
+  position relative
+  top 140px
+  margin-bottom auto
+  font-family "Sawarabi Mincho"
+
+.last-comment
+  float right
+  font-size 20px
+  position relative
+  top 60px
+  font-family "Sawarabi Mincho"
+
+
+
+
+
+
+
+
 
 // 　.main

@@ -11,7 +11,7 @@ block script
   script(src=JS_DIR + 'index.js' type='text/javascript' charset='UTF-8')
 
 block content
-  #home
+  .wrapper#home
     .top.clearfix
       .first
         h1.ttl
@@ -37,33 +37,25 @@ block content
       
     .main  
       .center-img
-        img(src="/assets/images/center_img.jpg")
           
-      .comment1
-        p
-          |作品を並べた壁のニッチは私だけの小さな世界
-          br
-          |少しずつ増えていくのが嬉しくて、眺めては幸せな気分に。
+      .midcom
+        .comment1
+          p
+            |作品を並べた壁のニッチは私だけの小さな世界
+            br
+            |少しずつ増えていくのが嬉しくて、眺めては幸せな気分に。
       
     .bottom  
-      .option
+      .option.clearfix
         .under-img
           img(src="/assets/images/under_img.jpg")
             
         .with-img
-          
+          img(src="/assets/images/english.png")
         .comment2
           p
-            |家を建てる時、ダイ
-            br
-            |ニングに設けたパソコ
-            br
-            |ン用カウンターが私の  
-            br
-            |アトリエ。テーブルで  
-            br
-            |も作業できて便利です。
-            
+          |家を建てる時、ダイニングに設けたパソコン用カウンターが私のアトリエ。テーブルでも作業できて便利です。
+          
       .last-comment
         p
           |自分の大好きなものを
